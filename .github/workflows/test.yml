@@ -32,7 +32,7 @@ jobs:
         uses: mattnotmitt/doxygen-action@v1.9.4
         with:
           working-directory: 'submodule/'
-          doxyfile-path: 'docs/Doxygen'
+          doxyfile-path: 'Doxygen'
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Build with Jekyll
